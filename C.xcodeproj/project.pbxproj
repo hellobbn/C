@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		152399181DB3B72B00F86FC4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 152399171DB3B72B00F86FC4 /* main.c */; };
+		152399201DB3B81000F86FC4 /* Program_1-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 1523991F1DB3B81000F86FC4 /* Program_1-1.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		152399141DB3B72A00F86FC4 /* C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C; sourceTree = BUILT_PRODUCTS_DIR; };
 		152399171DB3B72B00F86FC4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1523991F1DB3B81000F86FC4 /* Program_1-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Program_1-1.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +58,18 @@
 		152399161DB3B72A00F86FC4 /* C */ = {
 			isa = PBXGroup;
 			children = (
+				1523991E1DB3B7A200F86FC4 /* Chapter1 */,
 				152399171DB3B72B00F86FC4 /* main.c */,
 			);
 			path = C;
+			sourceTree = "<group>";
+		};
+		1523991E1DB3B7A200F86FC4 /* Chapter1 */ = {
+			isa = PBXGroup;
+			children = (
+				1523991F1DB3B81000F86FC4 /* Program_1-1.c */,
+			);
+			path = Chapter1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				152399181DB3B72B00F86FC4 /* main.c in Sources */,
+				152399201DB3B81000F86FC4 /* Program_1-1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +227,9 @@
 		1523991C1DB3B72B00F86FC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = 76FF489E5X;
+				OTHER_CFLAGS = "-Wall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -225,7 +237,9 @@
 		1523991D1DB3B72B00F86FC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = 76FF489E5X;
+				OTHER_CFLAGS = "-Wall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -249,6 +263,7 @@
 				1523991D1DB3B72B00F86FC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
