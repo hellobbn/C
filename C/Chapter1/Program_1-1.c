@@ -9,7 +9,8 @@
 //
 //	This programe aimes to calculate a mathmatical problem
 //
-//	**about**
+//	**About**
+//
 //	Version: 1.0.0
 //	Update time: 2016 / 10 / 15
 //
