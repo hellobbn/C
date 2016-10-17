@@ -11,14 +11,13 @@
 //	*********
 //	**About**
 //	*********
-//	Version: 1.0.0
+//	Version: 1.0.1
 //	Update time: 2016 / 10 / 15
 //
 
 #include <stdio.h>
-
+#define Pi 3.14159265358979
 int main(void) {
-	const float Pi = 3.14159265f;
 	float radius = 0.0f;
 	float circumference = 0.0f;
 	float area = 0.0f;
